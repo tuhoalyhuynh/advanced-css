@@ -1,0 +1,32 @@
+.container {
+    background-color: whitesmoke;
+    height: 300px;
+    width: 300px;
+}
+
+.container_two{
+    background-color: wheat;
+    color: violet;
+    height: 300px;
+    width: 300px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        background-color: red;
+        height: 300px;
+        width: 300px;
+    }
+    .container_two{
+        background-color: thistle;
+        color: blue;
+        height: 100px;
+        width: 100px;
+    }
+}
+
+.container:hover {
+    cursor: progress;
+    color: dodgerblue;
+    background-color: goldenrod;
+}
